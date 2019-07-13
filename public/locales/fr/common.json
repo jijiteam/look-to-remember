@@ -1,0 +1,15 @@
+{
+  "test": "Yeah, le test marche !",
+  "project": {
+    "name": "Look To Remember",
+    "shortName": "LTR",
+    "title": "Look To Remember",
+    "description": "Un roman visuel sur le thème de l'horreur psychologique"
+  },
+  "language": {
+    "en": "English",
+    "es": "Español",
+    "de": "Deutsch",
+    "fr": "Français"
+  }
+}

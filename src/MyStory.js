@@ -9,7 +9,6 @@ import {
   ErrorBoundary,
   getSchema,
   GoBackward,
-  Header,
   setContext,
   Story,
 } from 'dynamic-story';
@@ -18,17 +17,11 @@ import Intro from './fragments/Intro';
 import End from './fragments/End';
 
 import initialContext from './context';
-import banner from './assets/image/logo.png';
-
-const sortedFragments = [
-  Intro,
-  End,
-];
 
 const Content = props => (
   <>
-    <Header className="border-0 bg-transparent" banner={{ src: banner, alt: 'Titre du jeu : Look to remember' }} />
-    {sortedFragments.map(Fragment => Fragment(props))}
+    {Intro(props)}
+    {End(props)}
   </>
 );
 

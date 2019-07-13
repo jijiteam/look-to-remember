@@ -13,6 +13,7 @@ import storage from 'redux-persist/lib/storage';
 import { createLogger } from 'redux-logger';
 import thunk from 'redux-thunk';
 
+import './i18n';
 import * as serviceWorker from './serviceWorker';
 
 import reducer from './reducer';
@@ -33,11 +34,13 @@ const persistedReducer = persistReducer(rootPersistConfig, reducer);
 const store = createStore(persistedReducer, compose(applyMiddleware(...middleWares)));
 
 const App = () => (
-  <Provider store={store}>
-    <PersistGate loading="Loading..." persistor={persistStore(store)}>
-      <MyStory />
-    </PersistGate>
-  </Provider>
+  <React.Suspense fallback="Loading...">
+    <Provider store={store}>
+      <PersistGate loading="Loading..." persistor={persistStore(store)}>
+        <MyStory />
+      </PersistGate>
+    </Provider>
+  </ React.Suspense>
 );
 
 ReactDOM.render(<App />, document.getElementById('root'));
