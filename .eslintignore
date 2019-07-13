@@ -1,0 +1,10 @@
+/node_modules
+/build
+/dist
+/config
+/public
+/scripts
+.idea
+/src/registerServiceWorker.js
+/src/serviceWorker.js
+/README.md

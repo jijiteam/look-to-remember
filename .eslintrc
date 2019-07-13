@@ -1,0 +1,27 @@
+{
+  "extends": ["airbnb"],
+  "env": {
+    "jest": true
+  },
+  "plugins": ["jest", "import"],
+  "globals": {
+    "navigator": false,
+    "window": false,
+    "document": false,
+    "registration": false,
+    "fetch": false,
+    "localStorage": false
+  },
+  "rules": {
+    "react/jsx-filename-extension": false,
+    "react/no-unescaped-entities": false,
+    "no-use-before-define": "off",
+    "object-curly-newline": "off",
+    "max-len": [2, 120],
+    "import/no-unresolved": [2, { "commonjs": true, "amd": true }],
+    "import/named": 2,
+    "import/namespace": 2,
+    "import/default": 2,
+    "import/export": 2
+  }
+}
