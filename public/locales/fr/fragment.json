@@ -1,6 +1,62 @@
 {
-  "Intro": {
-
+  "empty": "",
+  "dialog": "— ",
+  "witchChoices": {
+    "text": "",
+    "choice": {
+      "a": "",
+      "b": "",
+      "x": "",
+      "y": ""
+    }
   },
-  "End": "Fin"
+
+  "End": "Fin de la démo",
+
+  "Intro": {
+    "0": "— Inspirez profondément et maintenant, rouvrez les yeux.",
+    "1": "Vous vous réveillez relaxé, lesté de tout souci. Une fraîche et vive odeur vous envahit les narines.",
+    "2": "À chaque fin de séance, le docteur Bleuet ouvre son petit pot de menthe poivrée pour faire signe qu’il faille revenir.",
+    "3": "Vous commencez à connaître les habitudes de cette jeune psychiatre qui vous suit depuis l’accident.",
+    "4": "Vous la regardez droit dans les yeux lorsqu'elle vous parle.\nVous ne voulez louper aucune de ses paroles pour les analyser encore et encore.",
+    "5": "Au delà des mots, vous admirez son visage fin et féminin. Une chevelure bouclée lui tombe sur les épaules et des reflets acajou viennent sublimer le châtain de ses racines. Vous l'écoutez faire le bilan d’aujourd’hui.",
+    "6": "— Les dernières séances ont été plutôt tranquilles. Je pense que vous êtes prêt à passer à la prochaine étape.",
+    "7": "Vous savez bien la suite qui vous attend, mais par politesse vous la laissez vous la résumer.",
+    "8": {
+      "text": "— Nous allons essayer de faire revenir quelques-uns de vos souvenirs. Il est important que vous ayez des repères sur ce qu’il s’est passé dans votre vie ces dix dernières années. Sachez cependant que certaines séances pourront être merveilleuses et d’autres non. Votre inconscient choisira quelles scènes vous reviendront et je ne peux pas vous garantir qu’elle soient toujours agréables. Cela est-il clair ?",
+      "choice": {
+        "a": "Oui c'est très clair",
+        "b": "Non vous n'en avez pas envie"
+      }
+    },
+    "9": {
+      "text": "— Il est en effet bien de savoir suivre son instinct et de s'arrêter au moment opportun.",
+      "choice": {
+        "a": "Vous allez quand même essayer",
+        "b": "Vous quitter les lieux sans vous retourner"
+      }
+    },
+    "10": "Vous lui répondez oui avec un peu d’hésitation. Il est vrai que son travail est de vous aider et que les dernières séances vous ont beaucoup fait progresser.",
+    "11": "Cependant, vous avez du mal à lui faire confiance. Malgré un charme accueillant, elle n’est pas là pour être votre amie.",
+    "12": "Vous remarquez même qu’elle cherche à tout prix à contenir ses émotions, à ne laisser paraître aucun indice pour garder une stricte neutralité.",
+    "13": "Mais il faut de temps en temps s’ignorer soi-même et fermer les yeux pour avancer.",
+    "14": "Perché au cinquième étage d’un vieil mais chic immeuble, le cabinet du docteur Bleuet, est un havre de lumière.",
+    "15": "Un grand bureau se tient au centre d’une vaste pièce.",
+    "16": "Le mobilier considéré comme antique contraste parfaitement avec une modernité subtile.",
+    "17": "Les murs ornés de tableaux contemporains accompagnent trois diplômes de médecine.",
+    "18": "Tout est carré, net et rangé. Seuls un ordinateur et un clavier sans fil trônent devant elle.",
+    "19": "Vous prenez le temps de noter votre prochain rendez-vous puis vous vous levez afin de quitter les lieux.",
+    "20": {
+      "text": "— À vendredi prochain vous dit-elle en vous serrant la main sans la moindre expression.",
+      "choice": {
+        "a": "Vous lui rendez la pareille, tout aussi neutre",
+        "b": "Vous  lui dîtes au revoir arborant votre plus beau sourir",
+        "x": "Vous partez sans un mot"
+      }
+    },
+    "minHeight": {
+      "1-2-3": "175px",
+      "15-16-17": "177px"
+    }
+  }
 }

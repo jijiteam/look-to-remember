@@ -1,7 +1,8 @@
 {
   "name": "look-to-remember",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "repository": "https://github.com/jijiteam/look-to-remember",
   "devDependencies": {
     "eslint-config-airbnb": "^17.1.1",
     "eslint-plugin-import": "^2.18.0",

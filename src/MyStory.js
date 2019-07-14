@@ -9,21 +9,35 @@ import {
   ErrorBoundary,
   getSchema,
   GoBackward,
+  // Header,
   setContext,
   Story,
 } from 'dynamic-story';
 
+import { withTranslation } from 'react-i18next';
 import Intro from './fragments/Intro';
 import End from './fragments/End';
 
 import initialContext from './context';
 
-const Content = props => (
-  <>
-    {Intro(props)}
-    {End(props)}
-  </>
-);
+// import banner from './assets/image/logo.png';
+
+// eslint-disable-next-line
+const Content = (props) => {
+  // const { t } = props;
+
+  return (
+    <>
+      {/* <Header className="border-0 bg-transparent" banner={{ src: banner, alt: t('title') }} /> */}
+      {Intro(props)}
+      {End(props)}
+    </>
+  );
+};
+
+Content.propTypes = {
+  // t: PropTypes.func.isRequired,
+};
 
 const MyStory = (props) => {
   const { context, dispatch, settings } = props;
@@ -62,4 +76,6 @@ MyStory.defaultProps = {
   settings: {},
 };
 
-export default connect(state => ({ ...state.dynamicStory }))(MyStory);
+export default connect(
+  state => ({ ...state.dynamicStory }),
+)(withTranslation(['common', 'fragment', 'character'])(MyStory));
