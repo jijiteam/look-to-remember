@@ -37,7 +37,7 @@ const Fragment = ({ context, dispatch, t }) => {
       <Card
         isSkipAble
         id="Intro.1"
-        className="w-33 mr-sm-3"
+        className="w-33 mr-md-3"
         text={t('fragment:Intro.1')}
         onTimeout={() => dispatch(goForward())}
         style={{ minHeight: t('fragment:Intro.minHeight.1-2-3') }}
@@ -55,7 +55,7 @@ const Fragment = ({ context, dispatch, t }) => {
       <Card
         isSkipAble
         id="Intro.3"
-        className="w-33 ml-sm-3"
+        className="w-33 ml-md-3"
         text={t('fragment:Intro.3')}
         onTimeout={() => dispatch(goForward())}
         style={{ minHeight: t('fragment:Intro.minHeight.1-2-3') }}
@@ -147,7 +147,7 @@ const Fragment = ({ context, dispatch, t }) => {
       <Card
         isSkipAble
         id="Intro.15"
-        className="w-33 mr-sm-3"
+        className="w-33 mr-md-3"
         text={t('fragment:Intro.15')}
         onTimeout={() => dispatch(goForward())}
         style={{ minHeight: t('fragment:Intro.minHeight.15-16-17') }}
@@ -165,7 +165,7 @@ const Fragment = ({ context, dispatch, t }) => {
       <Card
         isSkipAble
         id="Intro.17"
-        className="w-33 ml-sm-3"
+        className="w-33 ml-md-3"
         text={t('fragment:Intro.17')}
         onTimeout={() => dispatch(goForward())}
         style={{ minHeight: t('fragment:Intro.minHeight.15-16-17') }}

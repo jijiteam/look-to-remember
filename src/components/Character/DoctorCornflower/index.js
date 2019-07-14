@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Card } from 'dynamic-story';
 
+import './DoctorCornflower.scss';
+
 const DoctorCornflower = ({ children, className, text, title, ...rest }) => (
   <Card
     className={classNames('char-doctorCornflower border-cornflower', className)}

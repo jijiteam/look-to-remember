@@ -1,6 +1,15 @@
+@font-face {
+  font-family: "Fineliner Script";
+  src: url("./assets/fonts/Fineliner_Script.ttf") format("truetype");
+}
+
 #myStory {
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
   /* background-image: url("assets/image/background.jpg"); */
+
+  .font-cornflower {
+    font-family: "Fineliner Script", apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  }
 }

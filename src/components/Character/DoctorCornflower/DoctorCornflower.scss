@@ -1,0 +1,16 @@
+.char-doctorCornflower {
+  .card-title,
+  .card-text {
+    font-family: "Fineliner Script", apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  }
+
+  .card-text {
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: 768px) {
+    .card-text {
+      font-size: 2rem;
+    }
+  }
+}
