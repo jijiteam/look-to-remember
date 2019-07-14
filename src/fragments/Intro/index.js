@@ -99,11 +99,10 @@ const Fragment = ({ context, dispatch, t }) => {
         }}
       />
 
-      <Card
+      <DoctorCornflower
         isSkipAble
         id="Intro.9"
-        text={t('fragment:Intro.9')}
-        className="border-danger text-danger"
+        text={t('fragment:Intro.9.text')}
         choices={{
           a: { text: t('fragment:Intro.9.choice.a'), onClick: () => dispatch(goBackward()) },
           b: { text: t('fragment:Intro.9.choice.b'), onClick: () => window.location.assign(REPOSITORY) },
